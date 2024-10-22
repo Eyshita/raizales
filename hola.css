@@ -1,0 +1,126 @@
+body{
+background-color: beige;
+background-image: url(../fondo\ mar.jpg);
+background-position: right;
+}
+
+header{
+   padding: 15px;
+   /*
+   background-color: #fff4d8 !important;
+   background-image: url(../Guitarra.png);
+   background-size: contain;
+   background-repeat: no repeat;
+   background-position: center;
+   */
+   background: #fff4d8 url(../plantilla-logotipo-playa-dibujada-mano_23-2149402232.avif) no-repeat center !important;
+   background-size: 270px !important;
+}
+
+
+h1{
+
+    background-color:lightskyblue;
+    color:black;
+    text-align:center; 
+    font-family: "Raleway", sans-serif;
+  }
+p{ 
+ text-align: justify;
+ color: black;
+ font-size: 16px;
+}
+
+   article{
+   background-color: beige;
+   width: 80%;
+   margin-left: 10%;
+  }
+
+article h1{
+ background-color: white;
+ color: brown;
+ text-align: left;
+ text-transform: uppercase;
+ font-size: 32px;
+}
+
+
+#logo{
+   background-color: white;
+   width: 150px;
+   height:150px;
+   text-align: center;
+   line-height: 150px;
+   font-size: 50px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   border-radius:50px;
+   color:black; 
+   font-weight: bold;
+
+}
+
+.destacado{
+ font-style: italic;
+ text-align: right;
+ width: 60%; 
+ margin-left: 30%;
+ color: brown;
+ padding-bottom: 30px;
+
+}
+.propiedades{ 
+background-color: lightskyblue;
+/* Margen interno */
+/*
+padding-top: 50px;
+padding-right: 40px;
+padding-bottom: 50px;
+padding-left: 40px; */ 
+padding: 30px; 
+
+
+/* margin-top: 150px; 
+margin-right: 40px; 
+margin-bottom:140px; 
+margin-left: 60px; 
+margin: 100px 50px 20px 40px; */
+margin: 40px;  
+
+
+border-top: 4px red; 
+border-right: 10px aquamarine dashed;
+border-bottom: 3px black dotted; 
+border-left: black 5px double; 
+} 
+
+nav li{
+  background-color: beige;
+  display: inline; 
+}
+
+nav a:link, nav a:visited {
+color: black;
+text-decoration: none;
+border: solid 1px black;
+padding: 5px 10px;
+}
+nav a:hover{
+background-color: brown;
+color: white
+}
+nav a:active{
+  background-color: black;
+}
+
+.todo{
+ width: 1200px;
+ /* background-color: white; */
+margin:0 auto; 
+}
+
+ 
+
+
+
+
